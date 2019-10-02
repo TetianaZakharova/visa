@@ -1,0 +1,16 @@
+
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 400;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+  }
+
+  @font-face {
+	font-family: "SFProDisplayBlack";
+	src: url("../fonts/SFProDisplayBlack/SFProDisplay-Black.eot");
+	src: url("../fonts/SFProDisplayBlack/SFProDisplay-Black#iefix") format("embedded-opentype"),
+			 url("../fonts/SFProDisplayBlack/SFProDisplay-Black.woff") format("woff"),
+			 url("../fonts/SFProDisplayBlack/SFProDisplay-Black.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
