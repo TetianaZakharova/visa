@@ -1,24 +1,22 @@
-
-
 img{
-	max-width: 100%;
-	height:auto;
-	vertical-align: middle; 
+  max-width: 100%;
+  height:auto;
+  vertical-align: middle; 
 }
 .body{
-	min-width: 375px;
+  min-width: 375px;
   margin: 0 auto;
   box-sizing: border-box;
   background-color: #ffffff;
 }
 .wrap{
-	margin:auto;
-	background-color: #ffffff;
-	box-sizing: border-box;
+   margin:auto;
+   background-color: #ffffff;
+   box-sizing: border-box;
 }
 .header{
-	margin: 0 auto;
-	background: linear-gradient(180deg, blue 0%, #FFFFFF 100%);
+  margin: 0 auto;
+  background: linear-gradient(180deg, blue 0%, #FFFFFF 100%);
   padding: 20px 30px 100px;
   position: relative;
   font-family: 'San Francisco', sans-serif;
@@ -44,13 +42,13 @@ img{
   border-radius: 32px;
 }
 .header-logoRight{
-	align-items: center;
-	width: 29px;
-	height: 29px;
-	margin-left: -8px;
-	background: #FFFFFF;
-	opacity: 0.64;
-	border-radius: 32px;
+  align-items: center;
+  width: 29px;
+  height: 29px;
+  margin-left: -8px;
+  background: #FFFFFF;
+  opacity: 0.64;
+  border-radius: 32px;
 }
 .order-button{
   display: none;
