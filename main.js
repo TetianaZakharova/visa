@@ -18,3 +18,17 @@ function stopRotate(event){
   cardImg.style.transform = 'rotate(0)';
 }
 
+ window.addEventListener('scroll', parallax);
+
+  function parallax()  {
+    const elem = window.pageYOffset;
+    if (window.matchMedia("(min-width: 840px)").matches) {
+      const elem = window.pageYOffset;
+      this.document.querySelectorAll('.scrollMiddle').forEach(scrollMiddle => {
+       scrollMiddle.style.transform = 'translateY(' + elem / 10  +'px)'
+      });  
+      this.document.querySelectorAll('.scrollLast').forEach(scrollLast => {
+        scrollLast.style.transform = 'translateY(' + elem / 4  +'px)'
+      }); 
+    }
+  }
