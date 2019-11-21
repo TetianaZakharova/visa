@@ -35,7 +35,7 @@ img{
   display: flex;
   flex-direction: row;
 }
-.header-logo:hover{	
+.header-logo:{	
   transform: scale(1.2);
 }
 .header-logoLeft{
@@ -253,6 +253,10 @@ p{
   .detail:hover{
     transform: translate(0, -4px);
     box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.3);
+    transition: transform .3s ease-in-out;
+  }
+  .rentCar-item:hover{
+    transform: translate(0, -4px);
     transition: transform .3s ease-in-out;
   }
   .blocks-info-button{
