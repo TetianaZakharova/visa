@@ -182,6 +182,24 @@ p{
     height: 1168px;
     padding: 64px 98px;
   }
+  .fixed {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  .transition {    
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+  }
+  .show {
+    background: white;
+    width: 100%;
+    top:0;
+    padding-top: 20px;
+  }
   .order-button{
     display: flex;
     width: 137px;
@@ -199,9 +217,19 @@ p{
     margin-left: 24px;
   }
   .order-button:hover{
-    background:  rgb(45, 228, 228);
+    background:  rgb(163, 157, 165);
     color: #FFFFFF;
     transition: all .3s ease;
+  }
+  .fade-button{
+    color: white;
+    background: black;
+  }
+  .fade-logo{
+    background: #000000;
+  }
+  .img-invert{
+    filter: invert(100%);
   }
   header{
     background: url(img/bg-poster.png);
@@ -264,6 +292,7 @@ p{
   }
   .blocks-info-button:hover::after{
     transform: translate(8px);
+    transition: transform .3s ease-in;
   }
    h4{
     margin: 12px 0 8px;
