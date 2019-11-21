@@ -35,6 +35,9 @@ img{
   display: flex;
   flex-direction: row;
 }
+.header-logo:hover{	
+  transform: scale(1.2);
+}
 .header-logoLeft{
   width: 29px;
   height: 29px;
