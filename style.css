@@ -201,6 +201,7 @@ p{
   .order-button:hover{
     background:  rgb(45, 228, 228);
     color: #FFFFFF;
+    transition: all .3s ease;
   }
   header{
     background: url(img/bg-poster.png);
@@ -251,7 +252,8 @@ p{
   }
   .detail:hover{
     transform: translate(0, -4px);
-    box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.3);
+    transition: transform .3s ease-in-out;
   }
   .blocks-info-button{
     margin: 24px 0 0;
