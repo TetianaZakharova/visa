@@ -40,14 +40,12 @@ function stopRotate(event){
        document.querySelector('.order-button').classList.add("fade-button");
        document.querySelector('.header-logoRight').classList.add("fade-logo");
        document.querySelector('.header-logoLeft').classList.add("fade-logo");
-       document.querySelector('.header-nav-img').classList.add("img-invert");
        document.querySelector('.menuToggle-span').classList.add("fade-span");
     } else {
       document.querySelector('.fixed').classList.remove("show");
       document.querySelector('.order-button').classList.remove("fade-button");
       document.querySelector('.header-logoRight').classList.remove("fade-logo");
       document.querySelector('.header-logoLeft').classList.remove("fade-logo");
-      document.querySelector('.header-nav-img').classList.remove("img-invert");
       document.querySelector('.menuToggle-span').classList.remove("fade-span");
      };   	
   });
