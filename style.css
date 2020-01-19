@@ -235,7 +235,6 @@ p{
 .menuToggle-input:checked ~ .menuToggle-span{
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
 }
 .menuToggle-input:checked ~ .menuToggle-span:nth-last-child(3){
   opacity: 0;
