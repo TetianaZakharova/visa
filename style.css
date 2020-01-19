@@ -33,6 +33,7 @@ img{
   text-decoration: none;
   display: flex;
   flex-direction: row;
+  transition: all .2s ease;
 }
 .fade-logo{
   background: #000000;
