@@ -184,7 +184,7 @@ p{
 }
 .menu-link:hover{
   color: darkblue;
-  font-weight: bold;
+  text-decoration: underline;
 }
 #menuToggle{
   display: block;
@@ -305,11 +305,11 @@ p{
     padding: 8px 16px;
     cursor: pointer;
     margin-left: 24px;
+    transition: all .3s ease;
   }
   .order-button:hover{
     background:  rgb(163, 157, 165);
     color: #FFFFFF;
-    transition: all .3s ease;
   }
   .fade-button{
     color: white;
